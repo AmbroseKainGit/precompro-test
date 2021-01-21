@@ -10,7 +10,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: '/Carousel'
+      redirect: '/carousel'
     },
     {
       path: '/carousel',

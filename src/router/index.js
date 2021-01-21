@@ -1,13 +1,17 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Carousel  from '@/components/Carousel';
-import Card  from '@/components/Card';
+import Carousel from '@/components/Carousel';
+import Card from '@/components/Card';
 
 Vue.use(Router)
 
 export default new Router({
   mode: 'history',
   routes: [
+    {
+      path: '/',
+      redirect: '/Carousel'
+    },
     {
       path: '/carousel',
       name: 'Carousel',
